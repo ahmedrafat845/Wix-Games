@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f4f0;
+ }
+.home{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+
+}
+.logo{
+    padding-top: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 7px 1px  rgb(68, 66, 66);
+}
+.logo h4{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+}
+.navLink{
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 7px 1px rgb(68, 66, 66);
+    overflow: hidden;
+    background-color: white;
+   
+    
+}
+.navLink a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    transition: all .5s;
+  
+}
+.navLink div{
+    padding-top: 15px;
+    text-align: center;
+    width: 132px;
+    height: 60px;
+    transition: all .5s;
+}
+.navLink div:hover a ,.navLink div:hover{
+    background-color: red;
+    color: white;
+
+}
+.navLink h5{
+    font-weight: 400;
+}
+.firstDiv{
+    background-color: red;
+
+}
+.firstDiv h5{
+    color: white;
+}
+.caption h1{
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Carter One', cursive;
+    color: #272443;
+}
+.caption p{
+    font-size: 25px;
+    color: #272443;
+}
+.icon img{
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 1px rgb(68, 66, 66);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socondSection{
+    position: relative;
+    top: -200px;
+    left: 0px;
+    margin-bottom: 130px;
+}
+.card{
+    width: 280px;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px  ;
+    overflow: hidden;
+    position: relative;
+    border: none;
+  
+
+}
+.card h2,h4,p{
+  
+    font-weight: 700;
+
+}
+.card .img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: all .5s;
+}
+
+.card .img1{
+    background-image: url(../img/cat.jpg);
+
+}
+.card .img2{
+    background-image: url(../img/robot.jpg);
+
+}
+.card .img3{
+    background-image: url(../img/gold.jpg);
+
+}
+.card img{
+    height: 100%;
+    width: 150%;
+}
+.hover{
+    width: 280px;   
+    height: 400px;
+    background: linear-gradient(to top, rgba(255, 80, 80, .5) 0%, rgba(255, 153, 102, .5) 90%);
+    transition: all .5s;
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    color: white;
+
+ 
+}
+.hover2{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffff66 19%, #ff3300 100%);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: #272443;
+    transition: all 1s;
+}
+.card:hover .hover2{
+    background: linear-gradient(to right, #faf86f 100%, #abab95 100%);
+   
+    transform: scale(1.1);
+}
+
+.card:hover .hover{
+  opacity: 0;
+
+}
+.card:hover .img{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+.caption2{
+   padding-top: 80px;
+    text-align: center;
+}
+.caption2 h5{
+    font-size: 25px;
+    font-family: 'Carter One', cursive;
+}
+.caption2 h2 , .caption4 h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Carter One', cursive;
+    color: #272443;
+}
+.caption2 p , .caption4 p{
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: 'Carter One', cursive;
+}
+.caption2 button{
+    width: 140px;
+    height: 55px;
+    margin-bottom: 80px;
+    background-color:red;
+    color: white;
+}
+
+
+
+.caption3{
+    text-align: center;
+    width: 703px;
+    height: 394px;
+    margin: auto;
+    position: absolute;
+}
+
+.caption3 .img3{
+    
+   position: absolute;
+}
+.img3 img{
+    width: 703px;
+    height: 394px;
+   border-radius: 30px;
+
+}
+.hover3{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    margin: auto;
+    width: 703px;
+    height: 394px;
+   border-radius: 30px;
+   background-color: rgba(220, 20, 60,0);
+   transition: all .5s;
+}
+.hover3:hover{
+    background-color: rgba(220, 20, 60,0.4);
+
+}
+.icon3{
+    position: relative;
+    top: 200px;
+    left: -100;
+    z-index: 999;
+}
+.icon3 img{
+    width: 250px;
+}
+.fourthSection{
+    padding-bottom: 80px;
+}
+
+.caption4{
+
+    text-align: center;
+}
+.card1{
+    background-color: white;
+    width: 390px;
+    height: 380px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 7px 1px rgb(196, 192, 192);
+}
+.cardHead img{
+    width: 80px;
+    height: 80px;
+   border-radius: 25px;
+   margin-right: 20px;
+}
+.cardFooter img{
+    width: 48%;
+    border-radius: 10px;
+    
+}
+
+.allRow{
+    height: 1120px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   background-image: url(../img/ourgame\ bg.png);
+   background-size: cover;
+   background-position: center center;
+  
+   
+
+}
+.contact{
+    background-image: url(../img/contact\ bg.jpg);
+    background-attachment: fixed;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+.contactCaption h5{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.contactCaption h2{
+    color: white;
+    margin: 20px 0;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Carter One', cursive;
+}
+.contactCaption button{
+    width: 150px;
+    height: 63px;
+    background-color: #fcff72;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.contactImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 600px;
+}
+.contactImg img{
+    width: 490px;
+}
+.contactInput{
+    border-radius: 25px;
+    width: 440px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 7px 1px rgb(72, 70, 70);
+    color: #272443;
+    position: relative;
+    top: -280px;
+}
+.contactInput h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.contactInput p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.inputName input{
+    height: 60px;
+}
+.contactInput input:hover ,.contactInput textarea:hover{
+    border: 2px solid #272443;
+}
+.contactInput label{
+    margin:7px 0px;
+    
+
+}
+.contactInput button{
+    width: 100%;
+    height: 57px;
+    background-color: #272443;
+    color: white;
+    border-radius: 12px;
+
+}
+.emailInput{
+    height: 75px;
+}
+.textAreaInput{
+    height: 150px;
+}
+.subscribe{
+    border-radius: 25px;
+    background-color:red;
+    color: white;
+}
+.subscibeInputs input{
+    height: 60px;
+    border-radius: 10px;
+}
+.subscibeInputs button{
+    width: 80px;
+    border-radius: 10px;
+    background-color: #faf86f;
+}
+.contact2{
+    background:rgba(0, 0, 0, 0.7) url(../img/contact2\ bg.jpg);
+    background-blend-mode:saturation;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.captionFooter h3{
+    color: #272443;
+    margin: 20px 0;
+}
+.foot{
+
+    padding: 50px;
+    line-height: 30px;
+}
+.foot h5{
+    color: #272443;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.footp{
+    padding-right:50px ;
+    color: #6b6a70;
+   
+}
+.footp2{
+    color:#6b6a70 ;
+}
+.foot img{
+    width: 90%;
+    margin: 15px 0;
+    border-radius: 10px;
+
+}
+.last p{
+    color: #6b6a70;
+}
